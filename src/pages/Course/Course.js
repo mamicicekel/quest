@@ -1,8 +1,11 @@
 import React from 'react'
 import './Course.css'
+import Header from '../../Components/Header/Header'
 
 export default function Course() {
   return (
-    <div>Course</div>
+    <div>
+      <Header/>
+    </div>
   )
 }
