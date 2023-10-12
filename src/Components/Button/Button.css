@@ -1,0 +1,32 @@
+.button {
+    border: none;
+    border-radius: 45px;
+    padding: 20px 50px;
+    font-weight: 700;
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 16px;
+    letter-spacing: .08em;
+    text-transform:uppercase;
+    transition: all .15s linear;
+}
+
+.button:hover {
+    transform: scale3d(0.96,0.96,1.01);
+}
+.button.one {
+    background-color: rgba(15, 67, 127, 1.0);
+    color: #fff;
+}
+
+.button.one:hover {
+    background-color: rgba(0, 47, 107, 1.0);
+}
+
+.button.two {
+    background-color: rgb(231, 234, 238);
+    color: rgba(15, 67, 127, 1.0);
+}
+
+.button.two:hover {
+    background-color: rgb(211, 213, 216);
+}
