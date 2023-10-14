@@ -70,6 +70,41 @@ export default function Home() {
             </Col>
           </Row>
         </section>
+        <section className='section-fourth'>
+          <Row>
+            <Col sm={12} lg={6} >
+              <div className='left-group'>
+                <h1>Grow your career today with the Education courses</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div>
+                  <Button className='button two' onClick={navigateToCourses} text='Explore Courses' />
+                </div>
+              </div>
+            </Col>
+            <Col sm={12} lg={6} >
+              <div className='right-group'>
+              <Row>
+                <Col className='mid-box'>
+                  <div className='box'>
+                    <span>9/10</span>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                  <div className='box'>
+                  <span>96%</span>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                </Col>
+                <Col className='mid-box'>
+                  <div className='box'>
+                  <span>10K+</span>
+                    <p>Lorem ipsum dolor sit amet</p>
+                  </div>
+                </Col>
+              </Row>
+              </div>
+            </Col>
+          </Row>
+        </section>
       </main>
     </>
   )

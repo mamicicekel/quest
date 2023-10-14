@@ -39,6 +39,7 @@
     width: 100%;
     border-radius: 30px;
 }
+
 /* section-first */
 
 /* section-second */
@@ -59,11 +60,11 @@
     font-weight: 600;
     text-decoration: none;
     color: white;
-    font-size:38px;
+    font-size: 38px;
     margin-bottom: 50px;
 }
 
-.main-home .section-second .items{
+.main-home .section-second .items {
     width: 65%;
 
     margin-bottom: 50px;
@@ -107,7 +108,7 @@
 
 .main-home .section-third .left-group .button.one {
     margin-right: 10px;
-    
+
 }
 
 .main-home .section-third .right-group {
@@ -117,10 +118,12 @@
     position: relative;
 
 }
+
 .main-home .section-third img {
     width: 100%;
     border-radius: 30px;
 }
+
 .main-home .section-third .right-group .container {
     display: flex;
     flex-direction: column;
@@ -143,7 +146,8 @@
     font-weight: 600;
     padding: 2% 5%;
 }
-.main-home .section-third .right-group h4{
+
+.main-home .section-third .right-group h4 {
     margin-bottom: 20px;
     margin-top: 20px;
     font-family: Newsreader, serif;
@@ -151,25 +155,100 @@
     font-weight: 600;
     text-decoration: none;
     color: #0f437f;
-    font-size:24px
+    font-size: 24px
 }
-.main-home .section-third .right-group h5{
+
+.main-home .section-third .right-group h5 {
     font-weight: 600;
     color: #0f437f;
 }
-.main-home .section-third .right-group .top-title p{
+
+.main-home .section-third .right-group .top-title p {
     margin-bottom: 0;
     color: #0f437f;
 }
+
 .main-home .section-third .right-group p {
     font-family: 'Kumbh Sans', sans-serif;
-    color: rgb(98, 119, 143);;
+    color: rgb(98, 119, 143);
+    ;
 }
+
 /* section-third */
+
+/* section-fourth */
+
+.main-home .section-fourth {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    background-image: url('https://14487128.fs1.hubspotusercontent-na1.net/hubfs/14487128/Quest/canyon-1852921_1920.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-home .section-fourth .left-group {}
+
+.main-home .section-fourth .left-group .button.two {
+    margin-top: 50px;
+
+}
+
+.main-home .section-fourth .left-group h1 {
+    font-family: Newsreader, serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0f437f;
+    font-size: 60px;
+    text-shadow: 2px 2px rgb(168, 225, 220) ;
+}
+
+.main-home .section-fourth .left-group p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.main-home .section-fourth .right-group .mid-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-home .section-fourth .right-group .box {
+    background-color: white;
+    height: 200px;
+
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-home .section-fourth .right-group .box span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #62778f;
+}
+
+.main-home .section-fourth .right-group .box p {
+    color: #62778f;
+}
+
+/* section-fourth */
 @media (max-width: 566px) {
     .main-home .section-first .left-group .button.one {
         margin-bottom: 20px;
     }
+
     .main-home .section-third .left-group .button.one {
         margin-bottom: 20px;
     }
@@ -183,7 +262,7 @@
         text-align: center;
     }
 
-    
+
 
     .main-home .section-third {
         padding-left: 5%;
@@ -209,6 +288,25 @@
         bottom: -10%;
         background-color: white;
         border-radius: 30px;
+    }
+
+    .main-home .section-fourth {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-home .section-fourth .right-group .mid-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-home .section-fourth .left-group .button.two {
+        margin-bottom: 50px;
+
     }
 }
 
@@ -253,6 +351,7 @@
     .main-home .section-third img {
         width: 70%;
     }
+
     .main-home .section-third .right-group .container {
         display: flex;
         flex-direction: column;
@@ -264,5 +363,15 @@
         bottom: -10%;
         background-color: white;
         border-radius: 30px;
+    }
+
+    .main-home .section-fourth .right-group .box {
+        min-width: 250px;
+        max-width: 250px;
+    }
+
+    .main-home .section-fourth .left-group .button.two {
+        margin-bottom: 50px;
+
     }
 }
