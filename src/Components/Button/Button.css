@@ -30,3 +30,15 @@
 .button.two:hover {
     background-color: rgb(211, 213, 216);
 }
+
+.button.three {
+    background-color: rgba(15, 67, 127, 1.0);
+    color: #fff;
+    font-size: 14px;
+    width: fit-content;
+    padding: 10px 15px;
+}
+
+.button.three:hover {
+    background-color: rgba(0, 47, 107, 1.0);
+}

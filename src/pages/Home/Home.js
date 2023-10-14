@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import { useNavigate } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Header from '../../Components/Header/Header'
 import Vase from '../../assets/images/home-top-photo.jpg'
 import Button from '../../Components/Button/Button';
+import InfoCard from '../../Components/Cards/InfoCard/InfoCard'
 
 export default function Home() {
 
@@ -35,6 +36,13 @@ export default function Home() {
           </Row>
         </section>
         <section className='section-second'>
+          <h2>H2 heading module</h2>
+            <Row className='items'>
+              <Col sm={12} lg={4}><InfoCard /></Col>
+              <Col sm={12} lg={4}><InfoCard /></Col>
+              <Col sm={12} lg={4}><InfoCard /></Col>
+            </Row>
+          <Button className='button two' text='Explore Courses' />
         </section>
       </main>
     </>
