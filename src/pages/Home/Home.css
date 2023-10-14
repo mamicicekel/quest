@@ -1,7 +1,9 @@
+/* section-first */
 .main-home .section-first {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .main-home .section-first .left-group {
@@ -37,6 +39,7 @@
     width: 100%;
     border-radius: 30px;
 }
+/* section-first */
 
 @media (max-width: 566px) {
     .main-home .section-first .left-group .button.one {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Home.css'
 import { useNavigate } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
@@ -33,6 +33,8 @@ export default function Home() {
               <img src={Vase} />
             </Col>
           </Row>
+        </section>
+        <section className='section-second'>
         </section>
       </main>
     </>
