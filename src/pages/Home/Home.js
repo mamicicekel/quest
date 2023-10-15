@@ -10,6 +10,7 @@ import Elephant from '../../assets/images/elephant.jpg'
 import Button from '../../Components/Button/Button';
 import InfoCard from '../../Components/Cards/InfoCard/InfoCard'
 import InfoCard2 from '../../Components/Cards/InfoCard2/InfoCard2'
+import Footer from '../../Components/Footer/Footer';
 
 export default function Home() {
 
@@ -165,6 +166,7 @@ export default function Home() {
           <Button className='button one' text='Explore Courses' />
         </section>
       </main>
+      <Footer/>
     </>
   )
 }
