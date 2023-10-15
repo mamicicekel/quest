@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Header from '../../Components/Header/Header'
 import Vase from '../../assets/images/home-top-photo.jpg'
 import Path from '../../assets/images/path.jpg'
+import Elephant from '../../assets/images/elephant.jpg'
 import Button from '../../Components/Button/Button';
 import InfoCard from '../../Components/Cards/InfoCard/InfoCard'
 
@@ -83,27 +84,76 @@ export default function Home() {
             </Col>
             <Col sm={12} lg={6} >
               <div className='right-group'>
-              <Row>
-                <Col className='mid-box'>
-                  <div className='box'>
-                    <span>9/10</span>
-                    <p>Lorem ipsum dolor sit amet</p>
-                  </div>
-                  <div className='box'>
-                  <span>96%</span>
-                    <p>Lorem ipsum dolor sit amet</p>
-                  </div>
-                </Col>
-                <Col className='mid-box'>
-                  <div className='box'>
-                  <span>10K+</span>
-                    <p>Lorem ipsum dolor sit amet</p>
-                  </div>
-                </Col>
-              </Row>
+                <Row>
+                  <Col className='mid-box'>
+                    <div className='box'>
+                      <span>9/10</span>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div className='box'>
+                      <span>96%</span>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </Col>
+                  <Col className='mid-box'>
+                    <div className='box'>
+                      <span>10K+</span>
+                      <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                  </Col>
+                </Row>
               </div>
             </Col>
           </Row>
+        </section>
+        <section className='section-fifth'>
+          <h2>H2 Heading Module</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+            do eiusmod tempor incididunt.</p>
+          <div className='mid-box'>
+            <Row>
+              <Col sm={12} lg={6}>
+                <img src={Elephant} />
+              </Col>
+              <Col sm={12} lg={6} className='right-group'>
+                <Row>
+                  <Col lg={2}>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" aria-hidden="true" className='icon'>
+                        <path d="M378.94 321.41L284.7 224h49.22c15.3 0 23.66-16.6 13.86-27.53L234.45 69.96c3.43-6.61 5.55-14 5.55-21.96 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 7.96 2.12 15.35 5.55 21.96L36.22 196.47C26.42 207.4 34.78 224 50.08 224H99.3L5.06 321.41C-6.69 333.56 3.34 352 21.7 352H160v32H48c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h288c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16H224v-32h138.3c18.36 0 28.39-18.44 16.64-30.59zM192 31.98c8.85 0 16.02 7.17 16.02 16.02 0 8.84-7.17 16.02-16.02 16.02S175.98 56.84 175.98 48c0-8.85 7.17-16.02 16.02-16.02zM304 432v32H80v-32h224z"/>
+                    </svg>
+                  </Col>
+                  <Col lg={10}>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor.</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col lg={2}>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" aria-hidden="true" className='icon'>
+                        <path d="M378.94 321.41L284.7 224h49.22c15.3 0 23.66-16.6 13.86-27.53L234.45 69.96c3.43-6.61 5.55-14 5.55-21.96 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 7.96 2.12 15.35 5.55 21.96L36.22 196.47C26.42 207.4 34.78 224 50.08 224H99.3L5.06 321.41C-6.69 333.56 3.34 352 21.7 352H160v32H48c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h288c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16H224v-32h138.3c18.36 0 28.39-18.44 16.64-30.59zM192 31.98c8.85 0 16.02 7.17 16.02 16.02 0 8.84-7.17 16.02-16.02 16.02S175.98 56.84 175.98 48c0-8.85 7.17-16.02 16.02-16.02zM304 432v32H80v-32h224z"/>
+                    </svg>
+                  </Col>
+                  <Col lg={10}>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor.</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col lg={2}>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" aria-hidden="true" className='icon'>
+                        <path d="M378.94 321.41L284.7 224h49.22c15.3 0 23.66-16.6 13.86-27.53L234.45 69.96c3.43-6.61 5.55-14 5.55-21.96 0-26.51-21.49-48-48-48s-48 21.49-48 48c0 7.96 2.12 15.35 5.55 21.96L36.22 196.47C26.42 207.4 34.78 224 50.08 224H99.3L5.06 321.41C-6.69 333.56 3.34 352 21.7 352H160v32H48c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h288c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16H224v-32h138.3c18.36 0 28.39-18.44 16.64-30.59zM192 31.98c8.85 0 16.02 7.17 16.02 16.02 0 8.84-7.17 16.02-16.02 16.02S175.98 56.84 175.98 48c0-8.85 7.17-16.02 16.02-16.02zM304 432v32H80v-32h224z"/>
+                    </svg>
+                  </Col>
+                  <Col lg={10}>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor.</p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </div>
+          <Button className='button one' text='Explore Courses' />
+
         </section>
       </main>
     </>
