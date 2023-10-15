@@ -9,6 +9,7 @@ import Path from '../../assets/images/path.jpg'
 import Elephant from '../../assets/images/elephant.jpg'
 import Button from '../../Components/Button/Button';
 import InfoCard from '../../Components/Cards/InfoCard/InfoCard'
+import InfoCard2 from '../../Components/Cards/InfoCard2/InfoCard2'
 
 export default function Home() {
 
@@ -153,7 +154,15 @@ export default function Home() {
             </Row>
           </div>
           <Button className='button one' text='Explore Courses' />
-
+        </section>
+        <section className='section-sixth'>
+          <h2>H2 heading module</h2>
+          <Row className='items'>
+            <Col sm={12} lg={4}><InfoCard2 /></Col>
+            <Col sm={12} lg={4}><InfoCard2 /></Col>
+            <Col sm={12} lg={4}><InfoCard2 /></Col>
+          </Row>
+          <Button className='button one' text='Explore Courses' />
         </section>
       </main>
     </>
