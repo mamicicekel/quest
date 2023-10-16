@@ -1,0 +1,43 @@
+.count-card-box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.count-card-box h1 {
+    font-family: Newsreader, sans-serif;
+    font-weight: 600;
+    color: #0f437f;
+    font-size:60px
+}
+
+.count-card-box span {
+    font-weight: 600;
+    color: #0f437f;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.count-card-box p {
+    font-weight: 500;
+    color: rgb(98, 119, 143);;
+}
+
+@media (max-width:768px) {
+
+    .count-card-box {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1740px) {
+
+    .count-card-box {
+        margin-bottom: 50px;
+        width: fit-content;
+    }
+    
+}

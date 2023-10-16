@@ -3,7 +3,7 @@ import './About.css'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
 import Button from '../../Components/Button/Button'
-
+import CounteCard from '../../Components/Cards/CountCard/CountCard'
 import { Row, Col } from 'react-bootstrap'
 
 export default function About() {
@@ -26,6 +26,15 @@ export default function About() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium pulvinar ac molestie cursus malesuada enim. Massa nec tellus, elit tellus, erat faucibus aenean. Nunc, lacus, dignissim nec sit.</p>
             </Col>
           </Row>
+        </section>
+        <section className='section-second'>
+          <h2>A few numbers that we are proud of</h2>
+          <Row className='items'>
+            <Col sm={12} lg={4}><CounteCard text='100,000+'/></Col>
+            <Col sm={12} lg={4}><CounteCard text='5,000+'/></Col>
+            <Col sm={12} lg={4}><CounteCard text='75.000+'/></Col>
+          </Row>
+          <Button className='button one' text='Explore Courses' />
         </section>
       </main>
       <Footer />
