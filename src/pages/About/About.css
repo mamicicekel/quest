@@ -1,0 +1,42 @@
+.main-about .section-first{
+    padding: 10% 20%;  
+    background-color: #f5f5f5;  
+}
+
+.main-about .section-first h1{
+    margin-bottom: 5%;
+    font-family: Newsreader, serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0f437f;
+    font-size:60px
+}
+
+.main-about .section-first .row .right-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main-about .section-first p{
+    color: #62778f;
+}
+.main-about .section-first .buttons>*:not(:last-child){
+    margin-right: 30px;
+}
+
+@media (max-width:1668px){
+    .main-about .section-first{
+        padding: 10% 15%; 
+        text-align: center;
+    }
+    .main-about .section-first .buttons>*{
+        margin-bottom: 30px;
+    }
+
+    .main-about .section-first .buttons>*:not(:last-child){
+        margin-right: 15px;
+    }
+}
