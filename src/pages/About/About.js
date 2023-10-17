@@ -57,6 +57,64 @@ export default function About() {
             </Col>
           </Row>
         </section>
+        <section className='section-fourth'>
+          <Row>
+            <Col sm={12} lg={6}>
+              <div className='left-group'>
+                <h2>H2 Heading Module</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.</p>
+                <Button className='button one' text='Button' />
+              </div>
+            </Col>
+            <Col sm={12} lg={6}>
+              <div className='right-group'>
+                <Row>
+                  <Col xs={1} sm={1} lg={1}>
+                    <div className='timeline'>
+                      <div className='timeline-circle'>&#9679;</div>
+                      <div className='timeline-circle'>&#9679;</div>
+                      <div className='timeline-circle'>&#9679;</div>
+                      <div className='timeline-circle'>&#9679;</div>
+                    </div>
+                  </Col>
+                  <Col xs={11} sm={11} lg={11}>
+                    <div className='infos-box'>
+                      <div className='infos'>
+                        <div className='year'>
+                          <p>2023</p>
+                        </div>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .</p>
+                      </div>
+                      <div className='infos'>
+                        <div className='year'>
+                          <p>2023</p>
+                        </div>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .</p>
+                      </div>
+                      <div className='infos'>
+                        <div className='year'>
+                          <p>2023</p>
+                        </div>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .</p>
+                      </div>
+                      <div className='infos'>
+                        <div className='year'>
+                          <p>2023</p>
+                        </div>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliquam id dolor .</p>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+        </section>
       </main>
       <Footer />
     </div>
