@@ -1,0 +1,31 @@
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.main-contact h1 {
+    color: #0f437f;
+    font-family: Newsreader, serif;
+    font-weight: 600;
+}
+
+.main-contact .contact-infos{
+    padding-top: 2%;
+    color: #0f437f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contact .contact-infos>*{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .main-contact {
+        padding-top: 15%;
+    }
+}
