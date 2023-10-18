@@ -1,0 +1,54 @@
+.main-courses {
+    padding: 5% 20%; 
+}
+
+.main-courses .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.main-courses .top h2 {
+    font-family: Newsreader, serif;
+    font-weight: 600;
+    color: #0f437f;
+}
+
+.main-courses .top span {
+    background-color: white;
+    color: #0f437f;
+    padding: 5% 15%;
+    margin-right: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #0f437f;
+    transition: all .15s linear;
+
+}
+
+.main-courses .top span:hover {
+    background-color: rgb(211, 213, 216);
+
+
+}
+.main-courses .top .selected-filter {
+    background-color: #0f437f;
+    color: white;
+    border: 2px solid #0f437f
+}
+
+.main-courses .top .selected-filter:hover {
+    background-color: rgba(0, 47, 107, 1.0);
+
+}
+
+.main-courses .courses>*:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+@media (max-width:991px) {
+    .main-courses .courses>*:not(:last-child) {
+        margin-bottom: 200px;
+    }
+}
