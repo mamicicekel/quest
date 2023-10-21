@@ -6,6 +6,7 @@ import CourseCard from '../../Components/Cards/CourseCard/CourseCard';
 import FatherAndSon from '../../assets/images/father-and-son.jpg'
 import Nature from '../../assets/images/nature.jpg'
 import Paper from '../../assets/images/paper.jpg'
+import { Link } from 'react-router-dom';
 
 export default function Courses() {
 
